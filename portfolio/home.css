@@ -163,9 +163,14 @@
 }
 .icon{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     height: 10vh;
-    width: 10vw;
-    border: 1px solid black;
+    /* width: 80vh; */
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-bottom: 10vh;
+}
+.icon img{
+    width: 20vh;
 }

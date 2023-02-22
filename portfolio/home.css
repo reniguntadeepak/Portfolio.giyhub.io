@@ -52,9 +52,11 @@
     font-size: 3vh;
     padding-left: 5vh;
 }
-.personal h4{
+
+.personal h4 {
     font-weight: 550;
 }
+
 .image {
     height: 37%;
     /* border: 1px solid black; */
@@ -109,9 +111,10 @@
 }
 
 @media(max-width:700px) {
-    .progress{
-        width:80vw;
+    .progress {
+        width: 80vw;
     }
+
     .project1 {
         width: 99vw;
         border: 1px solid black;
@@ -139,16 +142,21 @@
         padding-left: 3vh;
         padding-bottom: 1vh;
     }
+
 }
-.personal h3{
+
+.personal h3 {
     font-weight: 700;
 }
-.acadamics h3{
+
+.acadamics h3 {
     font-weight: 700;
 }
-.progress{
-    width:30vw;
+
+.progress {
+    width: 80%;
 }
+
 .contact {
     width: 98vw;
     border: 1px solid black;
@@ -161,7 +169,8 @@
     flex-wrap: wrap;
     margin-bottom: 4vh;
 }
-.icon{
+
+.icon {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -171,6 +180,13 @@
     margin: auto;
     margin-bottom: 10vh;
 }
-.icon img{
+
+.icon img {
     width: 20vh;
+}
+
+.head {
+    font-weight: bolder;
+    position: fixed;
+    width: 100vw;
 }

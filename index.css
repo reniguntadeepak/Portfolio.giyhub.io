@@ -169,6 +169,16 @@
     flex-wrap: wrap;
     margin-bottom: 4vh;
 }
+.resume{
+    height: 5vh;
+    width: 30vw;
+    border: 1px solid black;
+    position: relative;
+    left: 30vw;
+}
+.resume:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3);
+}
 .icon {
     display: flex;
     justify-content: space-evenly;
